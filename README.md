@@ -20,6 +20,9 @@ Se debe ingresar un valor entre 0 y 5 para escoger una opción del menú:
 
 después, se debe ingresar la cantidad de coeficientes que tendrá cada polinomio, **para la opción 4, el segundo polinomio sólo debe tener 1 coeficiente, que corresponderá al escalar**. Por último se debe ingresar los coeficientes del polinomio separados por comas, así: ej. el polinomio 1 + 9x + 4x^2, tiene *3* elementos y se ingresan *1,9,4*.
 
+
+Ejemplo de parámetros de entrada:
+
 ```
 Opción: 1
 Ingrese el número de elementos del primer polinomio: 3
