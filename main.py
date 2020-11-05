@@ -46,3 +46,16 @@ while(True):
 
         num1 = np.array(num1)
         num2 = np.array(num2)
+
+        if opcion == 1:
+            calculo.suma(num1,num2)
+        elif opcion == 2:
+            calculo.resta(num1,num2)
+        elif opcion == 3:
+            calculo.multPolinomio(num1,num2)
+        elif opcion == 4:
+            calculo.multEscalar(num1,num2)
+        elif opcion == 5:
+            calculo.evalPolinomio(num1,num2)
+        else:
+            print("No es posible realizar la operación, por favor ingrese una opción del menú, entre 1 y 5")
