@@ -12,3 +12,12 @@ class calc:
         print("--------------------------------------------------------------")
         print("El resultado de sumar ", str(x), "+", str(y), " es: ", str(sum))
         print("--------------------------------------------------------------")
+    
+    def resta(self, x, y):
+        '''argumentos de entrada: dos arrays de 1D, cada uno con un polinomio
+        retorna: la resta de los dos polinomios
+        '''
+        res = P.polysub(x,y)
+        print("--------------------------------------------------------------")
+        print("El resultado de restar ", str(x), "-", str(y), " es: ", str(res))
+        print("--------------------------------------------------------------")
