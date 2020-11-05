@@ -33,3 +33,7 @@ Ingresa el número de elementos del segundo polinomio: 1
 Ingrese los elementos del primer polinomio: 5,9  
 Ingrese los elementos del segundo polinomio: 2
 ```
+
+## Construido con
+
+[numpy.polinomial] (https://numpy.org/doc/stable/reference/routines.polynomials.polynomial.html)
