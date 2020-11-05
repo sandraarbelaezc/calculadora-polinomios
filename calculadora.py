@@ -30,3 +30,12 @@ class calc:
         print("------------------------------------------------------------------------------------")
         print("El resultado de multiplicar los polinomios ", str(x), "*", str(y), " es: ", str(multP))
         print("------------------------------------------------------------------------------------")
+    
+    def multEscalar(self, x, y):
+        '''argumentos de entrada: un arrays de 1D con un polinomio y un escalar
+        retorna: la multiplicación de un polinomio y un escalar
+        '''
+        multE = x*y
+        print("-----------------------------------------------------------------------------------------------")
+        print("El resultado de multiplicar el polinomio y el escalar ", str(x), "*", str(y), " es: ", str(multE))
+        print("------------------------------------------------------------------------------------------------")
