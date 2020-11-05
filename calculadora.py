@@ -21,3 +21,12 @@ class calc:
         print("--------------------------------------------------------------")
         print("El resultado de restar ", str(x), "-", str(y), " es: ", str(res))
         print("--------------------------------------------------------------")
+    
+    def multPolinomio(self, x, y):
+        '''argumentos de entrada: dos arrays de 1D, cada uno con un polinomio
+        retorna: la multiplicación de los dos polinomios
+        '''
+        multP = P.polymul(x,y)
+        print("------------------------------------------------------------------------------------")
+        print("El resultado de multiplicar los polinomios ", str(x), "*", str(y), " es: ", str(multP))
+        print("------------------------------------------------------------------------------------")
