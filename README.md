@@ -18,7 +18,7 @@ Se debe ingresar un valor entre 0 y 5 para escoger una opción del menú:
 - *0*, para salir
 
 
-después, se debe ingresar la cantidad de coeficientes que tendrá cada polinomio, **para la opción 4, el segundo polinomio sólo debe tener 1 coeficiente, que corresponderá al escalar**. Por último se debe ingresar los coeficientes del polinomio separados por comas, así: ej. el polinomio 1 + 9x + 4x^2, tiene *3* elementos y se ingresan *1,9,4*.
+después, se debe ingresar la cantidad de coeficientes que tendrá cada polinomio, **para la opción 4 y 5, el segundo polinomio sólo debe tener 1 coeficiente, que corresponderá al escalar**. Por último se debe ingresar los coeficientes del polinomio separados por comas, así: ej. el polinomio 1 + 9x + 4x^2, tiene *3* elementos y se ingresan *1,9,4*.
 
 
 Ejemplo de parámetros de entrada:
@@ -36,7 +36,3 @@ Ingresa el número de elementos del segundo polinomio: 1
 Ingrese los elementos del primer polinomio: 5,9  
 Ingrese los elementos del segundo polinomio: 2
 ```
-
-## Construido con
-
-[numpy.polinomial] (https://numpy.org/doc/stable/reference/routines.polynomials.polynomial.html)
