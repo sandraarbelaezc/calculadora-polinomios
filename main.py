@@ -38,11 +38,11 @@ while(True):
 
     else:
         
-        num11 = int(input("Ingrese el número de elementos del primer coeficiente: ")) 
-        num22 = int(input("Ingresa el número de elementos del segundo coeficiente: "))
+        num11 = int(input("Ingrese el número de elementos del primer polinomio: ")) 
+        num22 = int(input("Ingresa el número de elementos del segundo polinomio: "))
 
-        num1 = list(map(int,input("\nIngrese los elementos del primer coeficiente: ").strip().split(',')))[:num11]
-        num2 = list(map(int,input("\nIngrese los elementos del segundo coeficiente: ").strip().split(',')))[:num22]
+        num1 = list(map(int,input("\nIngrese los elementos del primer polinomio: ").strip().split(',')))[:num11]
+        num2 = list(map(int,input("\nIngrese los elementos del segundo polinomio: ").strip().split(',')))[:num22]
 
         num1 = np.array(num1)
         num2 = np.array(num2)
