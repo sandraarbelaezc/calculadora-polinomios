@@ -39,3 +39,12 @@ class calc:
         print("-----------------------------------------------------------------------------------------------")
         print("El resultado de multiplicar el polinomio y el escalar ", str(x), "*", str(y), " es: ", str(multE))
         print("------------------------------------------------------------------------------------------------")
+    
+    def evalPolinomio(self, x, y):
+        '''argumentos de entrada: dos arrays de 1D, cada uno con un polinomio
+        retorna: la evaluación de los dos polinomios
+        '''
+        eval = P.polyval(x,y)
+        print("--------------------------------------------------------------------------------")
+        print("El resultado de evaluar los polinomios ", str(x), "y", str(y), " es: ", str(eval))
+        print("--------------------------------------------------------------------------------")
