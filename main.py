@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import numpy as np
 
 from calculadora import calc
 
@@ -43,9 +42,6 @@ while(True):
 
         num1 = list(map(int,input("\nIngrese los elementos del primer polinomio: ").strip().split(',')))[:num11]
         num2 = list(map(int,input("\nIngrese los elementos del segundo polinomio: ").strip().split(',')))[:num22]
-
-        num1 = np.array(num1)
-        num2 = np.array(num2)
 
         if opcion == 1:
             calculo.suma(num1,num2)
